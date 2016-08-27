@@ -20,4 +20,8 @@ public class MainActivity extends AppCompatActivity {
     private int test(int a,int b){
         return a + b;
     }
+
+    private void show1(){
+
+    }
 }
