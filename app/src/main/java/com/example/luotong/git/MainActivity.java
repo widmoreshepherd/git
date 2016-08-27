@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         //测试
     }
 
-    private int test(){
-        return 7;
+    private int test(int a){
+        return a;
     }
 }
