@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         show1("title");
     }
 
-    private int test(int a, int b){
+    private int sum(int a, int b){
         return test(a,b,0);
     }
 
