@@ -16,4 +16,8 @@ public class MainActivity extends AppCompatActivity {
         textView.setText("123");
         //
     }
+
+    private void test(){
+
+    }
 }
