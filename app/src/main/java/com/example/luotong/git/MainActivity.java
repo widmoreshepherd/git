@@ -18,6 +18,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void test(){
-
+        int a = 3 + 6;
     }
 }
