@@ -15,8 +15,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         textView = (TextView)findViewById(R.id.textView);
         textView.setText("123");
+        //原版
         test(5,6,7);
         show1();
+    }
+
+    private int test(int a, int b){
+        return test(a,b,0);
     }
 
     private int test(int a,int b,int c){
@@ -26,4 +31,5 @@ public class MainActivity extends AppCompatActivity {
     private void show1(){
         Toast.makeText(this,"123123", Toast.LENGTH_SHORT).show();
     }
+
 }
