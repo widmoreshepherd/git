@@ -14,10 +14,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         textView = (TextView)findViewById(R.id.textView);
         textView.setText("123");
-        //测试
+        test(3,4);
     }
 
-    private int test(int a){
-        return a;
+    private int test(int a,int b){
+        return a + b;
     }
 }
