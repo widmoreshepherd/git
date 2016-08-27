@@ -16,11 +16,12 @@ public class MainActivity extends AppCompatActivity {
         textView = (TextView)findViewById(R.id.textView);
         textView.setText("123");
         //原版
+        add(9,10);
         test(5,6,7);
         show1("title");
     }
 
-    private int sum(int a, int b){
+    private int add(int a, int b){
         return test(a,b,0);
     }
 
