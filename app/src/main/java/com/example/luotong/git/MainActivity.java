@@ -15,14 +15,14 @@ public class MainActivity extends AppCompatActivity {
         textView = (TextView)findViewById(R.id.textView);
         textView.setText("123");
         test(5,6,7);
-        show1("");
+        show1();
     }
 
     private int test(int a,int b,int c){
         return a + b + c;
     }
 
-    private void show1(String a){
-
+    private void show1(){
+        Toast.makeText(this,"123123",Toast.LENGTH_SHORT).show();
     }
 }
