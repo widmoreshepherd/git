@@ -3,6 +3,7 @@ package com.example.luotong.git;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         textView = (TextView)findViewById(R.id.textView);
         textView.setText("123");
         test(5,6,7);
+        show1();
     }
 
     private int test(int a,int b,int c){
@@ -22,6 +24,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void show1(){
-
+        Toast.makeText(this,"123123",Toast.LENGTH_SHORT).show();
     }
 }
